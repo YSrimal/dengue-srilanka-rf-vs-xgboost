@@ -1,0 +1,8 @@
+# Runtime requirements (Streamlit Community Cloud reads this file). Use Python 3.12 when deploying.
+# Versions match the ones used to create models/*.pkl.
+streamlit>=1.50
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+xgboost==3.4.1
+shap>=0.50      # only for the Random Forest "why" chart; the app degrades gracefully without it

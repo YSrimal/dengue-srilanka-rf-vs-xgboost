@@ -1,0 +1,476 @@
+{
+ "horizon_weeks": 2,
+ "dynamic_fields": [
+  "epi_week",
+  "cases_t",
+  "cases_t1",
+  "cases_t2",
+  "cases_t3",
+  "rain_t",
+  "rain_4wk",
+  "rain_8wk",
+  "tmax_4wk",
+  "tmin_4wk",
+  "humidity_4wk"
+ ],
+ "static_fields": [
+  "population",
+  "latitude",
+  "longitude",
+  "coastal",
+  "elevation_code",
+  "baseline_p75"
+ ],
+ "raw_fields": [
+  "epi_week",
+  "cases_t",
+  "cases_t1",
+  "cases_t2",
+  "cases_t3",
+  "rain_t",
+  "rain_4wk",
+  "rain_8wk",
+  "tmax_4wk",
+  "tmin_4wk",
+  "humidity_4wk",
+  "population",
+  "latitude",
+  "longitude",
+  "coastal",
+  "elevation_code",
+  "baseline_p75"
+ ],
+ "districts": {
+  "Ampara": {
+   "population": 775000,
+   "latitude": 7.2975,
+   "longitude": 81.6747,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 2.2492847108973972,
+   "province": "Eastern"
+  },
+  "Anuradhapura": {
+   "population": 969473,
+   "latitude": 8.3114,
+   "longitude": 80.4037,
+   "coastal": 0,
+   "elevation_code": 0,
+   "baseline_p75": 1.4452740316293506,
+   "province": "North Central"
+  },
+  "Badulla": {
+   "population": 913073,
+   "latitude": 6.9934,
+   "longitude": 81.055,
+   "coastal": 0,
+   "elevation_code": 1,
+   "baseline_p75": 1.8498692126427332,
+   "province": "Uva"
+  },
+  "Batticaloa": {
+   "population": 598709,
+   "latitude": 7.717,
+   "longitude": 81.7,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 6.30800487606664,
+   "province": "Eastern"
+  },
+  "Colombo": {
+   "population": 2498473,
+   "latitude": 6.9271,
+   "longitude": 79.8612,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 9.497549019607844,
+   "province": "Western"
+  },
+  "Galle": {
+   "population": 1156545,
+   "latitude": 6.0535,
+   "longitude": 80.221,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 2.480787677651962,
+   "province": "Southern"
+  },
+  "Gampaha": {
+   "population": 2449855,
+   "latitude": 7.0917,
+   "longitude": 79.9999,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 4.149085719772174,
+   "province": "Western"
+  },
+  "Hambantota": {
+   "population": 697364,
+   "latitude": 6.1241,
+   "longitude": 81.1185,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 2.9348059656758467,
+   "province": "Southern"
+  },
+  "Jaffna": {
+   "population": 638545,
+   "latitude": 9.6615,
+   "longitude": 80.0255,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 7.29229904440697,
+   "province": "Northern"
+  },
+  "Kalutara": {
+   "population": 1294436,
+   "latitude": 6.5854,
+   "longitude": 79.9607,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 3.803889433343115,
+   "province": "Western"
+  },
+  "Kandy": {
+   "population": 1511691,
+   "latitude": 7.2906,
+   "longitude": 80.6337,
+   "coastal": 0,
+   "elevation_code": 1,
+   "baseline_p75": 4.319573483204819,
+   "province": "Central"
+  },
+  "Kegalle": {
+   "population": 903655,
+   "latitude": 7.2513,
+   "longitude": 80.3464,
+   "coastal": 0,
+   "elevation_code": 1,
+   "baseline_p75": 3.8331454340473505,
+   "province": "Sabaragamuwa"
+  },
+  "Kilinochchi": {
+   "population": 140855,
+   "latitude": 9.3961,
+   "longitude": 80.3982,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 1.6877937615724257,
+   "province": "Northern"
+  },
+  "Kurunegala": {
+   "population": 1753982,
+   "latitude": 7.4863,
+   "longitude": 80.3647,
+   "coastal": 0,
+   "elevation_code": 1,
+   "baseline_p75": 2.8061786308338252,
+   "province": "North Western"
+  },
+  "Mannar": {
+   "population": 119600,
+   "latitude": 8.981,
+   "longitude": 79.9044,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 2.9880478087649402,
+   "province": "Northern"
+  },
+  "Matale": {
+   "population": 534727,
+   "latitude": 7.4675,
+   "longitude": 80.6234,
+   "coastal": 0,
+   "elevation_code": 1,
+   "baseline_p75": 3.256704980842912,
+   "province": "Central"
+  },
+  "Matara": {
+   "population": 880418,
+   "latitude": 5.9485,
+   "longitude": 80.5353,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 3.363310102793787,
+   "province": "Southern"
+  },
+  "Monaragala": {
+   "population": 519418,
+   "latitude": 6.8714,
+   "longitude": 81.3507,
+   "coastal": 0,
+   "elevation_code": 1,
+   "baseline_p75": 1.7846954209728616,
+   "province": "Uva"
+  },
+  "Mullaitivu": {
+   "population": 100000,
+   "latitude": 9.2671,
+   "longitude": 80.8142,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 2.0833333333333335,
+   "province": "Northern"
+  },
+  "Nuwara Eliya": {
+   "population": 794164,
+   "latitude": 6.9497,
+   "longitude": 80.7891,
+   "coastal": 0,
+   "elevation_code": 2,
+   "baseline_p75": 0.8185538881309686,
+   "province": "Central"
+  },
+  "Polonnaruwa": {
+   "population": 454109,
+   "latitude": 7.9403,
+   "longitude": 81.0188,
+   "coastal": 0,
+   "elevation_code": 0,
+   "baseline_p75": 1.8348623853211008,
+   "province": "North Central"
+  },
+  "Puttalam": {
+   "population": 865636,
+   "latitude": 8.0362,
+   "longitude": 79.8283,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 2.776150932400933,
+   "province": "North Western"
+  },
+  "Ratnapura": {
+   "population": 1209927,
+   "latitude": 6.6828,
+   "longitude": 80.3992,
+   "coastal": 0,
+   "elevation_code": 1,
+   "baseline_p75": 3.786872284048746,
+   "province": "Sabaragamuwa"
+  },
+  "Trincomalee": {
+   "population": 457255,
+   "latitude": 8.5874,
+   "longitude": 81.2152,
+   "coastal": 1,
+   "elevation_code": 0,
+   "baseline_p75": 3.3248081841432224,
+   "province": "Eastern"
+  },
+  "Vavuniya": {
+   "population": 200309,
+   "latitude": 8.7514,
+   "longitude": 80.4971,
+   "coastal": 0,
+   "elevation_code": 0,
+   "baseline_p75": 3.4544657461656927,
+   "province": "Northern"
+  }
+ },
+ "examples": [
+  {
+   "label": "Rising week - both models alarm",
+   "district": "Ratnapura",
+   "week_start": "2025-05-03",
+   "inputs": {
+    "epi_week": 20.0,
+    "cases_t": 242.0,
+    "cases_t1": 273.0,
+    "cases_t2": 319.0,
+    "cases_t3": 146.0,
+    "rain_t": 66.8,
+    "rain_4wk": 60.9,
+    "rain_8wk": 64.79,
+    "tmax_4wk": 31.69,
+    "tmin_4wk": 23.53,
+    "humidity_4wk": 89.07,
+    "population": 1209927.0
+   },
+   "outcome": "real test week: 203 cases 2 weeks later, HIGH week"
+  },
+  {
+   "label": "Quiet week - both models calm",
+   "district": "Matale",
+   "week_start": "2021-04-03",
+   "inputs": {
+    "epi_week": 15.0,
+    "cases_t": 1.0,
+    "cases_t1": 1.0,
+    "cases_t2": 0.0,
+    "cases_t3": 1.0,
+    "rain_t": 11.7,
+    "rain_4wk": 17.13,
+    "rain_8wk": 11.84,
+    "tmax_4wk": 31.12,
+    "tmin_4wk": 21.73,
+    "humidity_4wk": 76.79,
+    "population": 530000.0
+   },
+   "outcome": "real test week: 2 cases 2 weeks later, normal week"
+  },
+  {
+   "label": "Disagreement - RF and XGBoost differ most",
+   "district": "Trincomalee",
+   "week_start": "2024-03-09",
+   "inputs": {
+    "epi_week": 12.0,
+    "cases_t": 23.0,
+    "cases_t1": 13.0,
+    "cases_t2": 26.0,
+    "cases_t3": 26.0,
+    "rain_t": 0.2,
+    "rain_4wk": 1.27,
+    "rain_8wk": 7.79,
+    "tmax_4wk": 30.66,
+    "tmin_4wk": 25.12,
+    "humidity_4wk": 75.96,
+    "population": 442000.0
+   },
+   "outcome": "real test week: 12 cases 2 weeks later, normal week"
+  },
+  {
+   "label": "Colombo, newest week (left out)",
+   "district": "Colombo",
+   "week_start": "2025-11-29",
+   "inputs": {
+    "epi_week": 50.0,
+    "cases_t": 272.0,
+    "cases_t1": 286.0,
+    "cases_t2": 226.0,
+    "cases_t3": 266.0,
+    "rain_t": 17.9,
+    "rain_4wk": 132.22,
+    "rain_8wk": 100.7,
+    "tmax_4wk": 29.03,
+    "tmin_4wk": 23.32,
+    "humidity_4wk": 86.5,
+    "population": 2498473.0
+   },
+   "outcome": "left-out week: 340 cases 2 weeks later, HIGH week"
+  }
+ ],
+ "data_range": [
+  "2006-12-23",
+  "2025-12-13"
+ ],
+ "test_range": [
+  "2021-03-27",
+  "2025-11-22"
+ ],
+ "field_ranges": {
+  "epi_week": {
+   "min": 1.0,
+   "median": 27.0,
+   "max": 53.0
+  },
+  "cases_t": {
+   "min": 0.0,
+   "median": 10.0,
+   "max": 2631.0
+  },
+  "cases_t1": {
+   "min": 0.0,
+   "median": 10.0,
+   "max": 2631.0
+  },
+  "cases_t2": {
+   "min": 0.0,
+   "median": 10.0,
+   "max": 2631.0
+  },
+  "cases_t3": {
+   "min": 0.0,
+   "median": 10.0,
+   "max": 2631.0
+  },
+  "rain_t": {
+   "min": 0.0,
+   "median": 22.1,
+   "max": 647.7
+  },
+  "rain_4wk": {
+   "min": 0.0,
+   "median": 29.32499999999999,
+   "max": 310.67499999999995
+  },
+  "rain_8wk": {
+   "min": 0.07499999999998934,
+   "median": 31.4875,
+   "max": 224.0375
+  },
+  "tmax_4wk": {
+   "min": 17.575,
+   "median": 29.49285714285714,
+   "max": 37.767857142857146
+  },
+  "tmin_4wk": {
+   "min": 10.103571428571428,
+   "median": 24.014285714285716,
+   "max": 28.682142857142857
+  },
+  "humidity_4wk": {
+   "min": 54.32142857142857,
+   "median": 81.89285714285714,
+   "max": 95.14285714285714
+  }
+ },
+ "metrics": {
+  "Random Forest": {
+   "test_auc": 0.8758,
+   "auc_lo": 0.8518,
+   "auc_hi": 0.8985,
+   "test_pr_auc": 0.8266,
+   "recall": 0.8542,
+   "precision": 0.6769,
+   "f1": 0.7553,
+   "accuracy": 0.779,
+   "brier": 0.1508
+  },
+  "XGBoost": {
+   "test_auc": 0.8751,
+   "auc_lo": 0.8499,
+   "auc_hi": 0.8979,
+   "test_pr_auc": 0.8255,
+   "recall": 0.6809,
+   "precision": 0.7828,
+   "f1": 0.7283,
+   "accuracy": 0.7972,
+   "brier": 0.1401
+  }
+ },
+ "cv_auc": {
+  "Random Forest": 0.8631,
+  "XGBoost": 0.8657
+ },
+ "comparison": {
+  "label_agreement": 0.8428,
+  "prob_pearson": 0.9632,
+  "prob_spearman": 0.983,
+  "rf_only_correct": 424.0,
+  "xgb_only_correct": 535.0,
+  "mcnemar_p": 0.0004,
+  "d_auc": 0.0007,
+  "d_auc_lo": -0.0023,
+  "d_auc_hi": 0.0043,
+  "d_pr": 0.0012,
+  "d_pr_lo": -0.0042,
+  "d_pr_hi": 0.0076
+ },
+ "matched": {
+  "Random Forest": {
+   "precision @ recall 0.70": 0.7744,
+   "precision @ recall 0.80": 0.7161,
+   "precision @ recall 0.90": 0.6259,
+   "recall @ precision 0.70": 0.8234,
+   "recall @ precision 0.80": 0.6554
+  },
+  "XGBoost": {
+   "precision @ recall 0.70": 0.7752,
+   "precision @ recall 0.80": 0.7144,
+   "precision @ recall 0.90": 0.6194,
+   "recall @ precision 0.70": 0.8181,
+   "recall @ precision 0.80": 0.6472
+  }
+ },
+ "high_week_definition": "incidence 2 weeks ahead > district's training-period 75th percentile"
+}

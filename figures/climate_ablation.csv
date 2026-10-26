@@ -1,0 +1,3 @@
+,cv_with,cv_without,test_with,test_without
+Random Forest,0.8631,0.8636,0.8758,0.8715
+XGBoost,0.8657,0.8647,0.8751,0.8735

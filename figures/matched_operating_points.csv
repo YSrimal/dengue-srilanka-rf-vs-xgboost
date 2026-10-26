@@ -1,0 +1,6 @@
+,Random Forest,XGBoost
+precision @ recall 0.70,0.7744,0.7752
+precision @ recall 0.80,0.7161,0.7144
+precision @ recall 0.90,0.6259,0.6194
+recall @ precision 0.70,0.8234,0.8181
+recall @ precision 0.80,0.6554,0.6472

@@ -1,0 +1,25 @@
+,Random Forest,XGBoost
+elevation_code,0.0003,0.0002
+coastal,0.0013,0.0003
+temp_range,0.0053,0.0111
+tmin_4wk,0.0054,0.0062
+inc_t3,0.006,0.0079
+longitude,0.0062,0.015
+humidity_4wk,0.0086,0.0127
+latitude,0.0089,0.0176
+tmax_4wk,0.0096,0.0614
+rain_t,0.0098,0.0228
+inc_t2,0.0117,0.0154
+rain_4wk,0.0127,0.0189
+growth,0.0153,0.0177
+week_sin,0.0157,0.0343
+population,0.0178,0.0315
+week_cos,0.0217,0.0459
+baseline_p75,0.0265,0.0269
+trend3,0.0266,0.0308
+rain_8wk,0.0302,0.0546
+inc_t1,0.0528,0.0626
+inc_t,0.062,0.0216
+inc_mean4,0.0771,0.0065
+rel_t,0.2171,0.1881
+rel_mean4,0.3514,0.2901

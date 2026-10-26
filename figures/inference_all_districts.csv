@@ -1,0 +1,26 @@
+district,date,actual_cases_in_2wk,actual_high,RF,XGBoost,RF_label,XGB_label,agree
+Galle,2025-11-29,82.0,1,0.9604,0.9562,HIGH,HIGH,True
+Gampaha,2025-11-29,214.0,1,0.9524,0.9484,HIGH,HIGH,True
+Jaffna,2025-11-29,76.0,1,0.8661,0.8386,HIGH,HIGH,True
+Matara,2025-11-29,44.0,1,0.8525,0.8377,HIGH,HIGH,True
+Ratnapura,2025-11-29,60.0,1,0.8648,0.8084,HIGH,HIGH,True
+Colombo,2025-11-29,340.0,1,0.8058,0.7891,HIGH,HIGH,True
+Monaragala,2025-11-29,24.0,1,0.763,0.7744,HIGH,HIGH,True
+Kalutara,2025-11-29,85.0,1,0.8307,0.7396,HIGH,HIGH,True
+Kilinochchi,2025-11-29,5.0,1,0.7327,0.7261,HIGH,HIGH,True
+Mannar,2025-11-29,0.0,0,0.7483,0.7211,HIGH,HIGH,True
+Polonnaruwa,2025-11-29,14.0,1,0.6892,0.6866,HIGH,HIGH,True
+Mullaitivu,2025-11-29,3.0,1,0.6616,0.6819,HIGH,HIGH,True
+Hambantota,2025-11-29,42.0,1,0.673,0.6106,HIGH,HIGH,True
+Matale,2025-11-29,16.0,0,0.7178,0.5917,HIGH,HIGH,True
+Ampara,2025-11-29,18.0,1,0.5866,0.5865,HIGH,HIGH,True
+Trincomalee,2025-11-29,9.0,0,0.6201,0.5778,HIGH,HIGH,True
+Kandy,2025-11-29,85.0,1,0.642,0.5019,HIGH,HIGH,True
+Nuwara Eliya,2025-11-29,7.0,1,0.5342,0.4473,HIGH,normal,False
+Kegalle,2025-11-29,37.0,1,0.4547,0.4178,normal,normal,True
+Badulla,2025-11-29,25.0,1,0.598,0.403,HIGH,normal,False
+Anuradhapura,2025-11-29,13.0,0,0.4578,0.3595,normal,normal,True
+Puttalam,2025-11-29,22.0,0,0.3744,0.3238,normal,normal,True
+Batticaloa,2025-11-29,20.0,0,0.2486,0.21,normal,normal,True
+Kurunegala,2025-11-29,32.0,0,0.2331,0.1646,normal,normal,True
+Vavuniya,2025-11-29,3.0,0,0.0502,0.039,normal,normal,True
